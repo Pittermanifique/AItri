@@ -8,7 +8,7 @@ PEXELS_API_KEY = "L5VjkIXreZ584oPhSrwGYtDfDgKJNTg60FrRYcb9cq8cR3nK85SZ9VKE"  # r
 
 # 🔍 Paramètres de recherche
 headers = {"Authorization": PEXELS_API_KEY}
-query = "chats"
+query = "fish"
 per_page = 15  # max 80
 pages = 3  # nombre de pages à récupérer
 
@@ -22,7 +22,7 @@ for page in range(1, pages + 1):
     for photo in data.get("photos", []):
         image_url = photo["src"]["original"]
         image_data = requests.get(image_url).content
-        save_folder = "images/chats"
+        save_folder = "images/poissons"
         os.makedirs(save_folder, exist_ok=True)
 
         filename = f"{query}_{image_count}.jpg"
