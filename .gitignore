@@ -5,3 +5,4 @@ venv/
 
 # Dossier de configuration PyCharm / IntelliJ
 .idea/
+vecteurs_reference.json

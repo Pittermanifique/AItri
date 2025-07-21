@@ -1,7 +1,6 @@
 from PIL import Image
 from scipy.spatial import ConvexHull
 from torchvision import transforms
-import torch
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from matplotlib.path import Path
