@@ -4,7 +4,7 @@ import os
 
 
 # 🔑 Ta clé API Pexels
-PEXELS_API_KEY = "L5VjkIXreZ584oPhSrwGYtDfDgKJNTg60FrRYcb9cq8cR3nK85SZ9VKE"  # remplace par ta vraie clé
+PEXELS_API_KEY = "api key"  # remplace par ta vraie clé
 
 # 🔍 Paramètres de recherche
 headers = {"Authorization": PEXELS_API_KEY}
